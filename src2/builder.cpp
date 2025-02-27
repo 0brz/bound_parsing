@@ -965,6 +965,11 @@ graph_table<graph_block *> *builder::build_lex_graph(string &src)
             else
                 _last_name = "<undf>";
 
+            if (_last == NULL)
+            {
+                printf("LAST IS NULL\n");
+            }
+
             // specials
             if (tag->type == RULE_TYPE::GO)
             {
@@ -1008,6 +1013,8 @@ graph_table<graph_block *> *builder::build_lex_graph(string &src)
                 lx.cursor_move(1);
         }
     }
+
+    printf("Build lex graph end.\n");
 
     return gt;
 };

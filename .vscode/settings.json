@@ -56,6 +56,13 @@
         "xloctime": "cpp",
         "xmemory": "cpp",
         "xtr1common": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "deque": "cpp",
+        "iomanip": "cpp",
+        "algorithm": "cpp",
+        "array": "cpp",
+        "queue": "cpp",
+        "ranges": "cpp",
+        "span": "cpp"
     }
 }

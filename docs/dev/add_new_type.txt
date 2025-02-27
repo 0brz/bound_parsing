@@ -1,0 +1,7 @@
+
+lex_build (lextable) 
+1. check lex build
+
+parse_build = deep_build
+1. check type-mapping
+2. build pr_value

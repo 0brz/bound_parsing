@@ -1,0 +1,7 @@
+
+$ex1:
+  list:
+    num
+
+go:
+  $ex1

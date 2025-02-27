@@ -55,7 +55,7 @@ and keep containning.'
 #sequence of hook:
 sequence: id_begins('&'), tagval: tag: word  val: int 
 
-(strict seqeunce, get if all vector elements accessed)
+(strict seqeunce, get if all vector elements accessed and no any exists between)
 # vector
     word,
     ':',
